@@ -28,7 +28,7 @@ The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multi-s
 ## Features
 
 - Structural MRI (T1, T2, FLAIR) and diffusion tensor imaging across multiple serial visits per participant
-- Amyloid PET (florbetapir, florbetaben, florbetaben) and tau PET (flortaucipir) with longitudinal follow-up
+- Amyloid PET (florbetapir, florbetaben) and tau PET (flortaucipir) with longitudinal follow-up
 - CSF Aβ42, total-tau, and phospho-tau biomarker panels from lumbar punctures
 - Composite cognitive scores (ADAS-Cog, MMSE, CDR) and neuropsychological battery at each visit
 - APOE genotyping and genome-wide SNP arrays enabling genetic stratification
