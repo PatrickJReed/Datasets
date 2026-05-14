@@ -53,4 +53,4 @@ All data are openly downloadable without registration or a data use agreement un
 
 ## Related
 
-`[[sea-ad]]`, `[[hca]]`, `[[psychencode]]`
+`[[biccn]]`, `[[sea-ad]]`, `[[hca]]`, `[[psychencode]]`. ABC Atlas is the user-facing surface for a large fraction of BICCN's transcriptomic data; see the BICCN profile for the broader consortium scope.
