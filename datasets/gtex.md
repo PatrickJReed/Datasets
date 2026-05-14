@@ -3,7 +3,7 @@ name: Genotype-Tissue Expression Project
 aliases: [GTEx]
 host: NHGRI / GTEx Portal
 url: https://gtexportal.org/
-access: registered
+access: controlled
 modalities: [bulk-rna-seq, wgs, genotype]
 species: human
 tissue: [multi-tissue, 13-brain-regions, blood, muscle, skin, other]
@@ -13,7 +13,7 @@ n_samples: ~17000
 age_range: 20-70
 scale_gb: ~5000
 license: GTEx DUA (open summary, controlled raw)
-year: 2017
+year: 2010-ongoing
 tags: [reference, multi-tissue, eQTL, regulatory-genomics]
 ai_relevance: [foundation-model, regulatory-genomics, multitissue, eQTL]
 compute_hint: gpu-single

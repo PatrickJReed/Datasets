@@ -5,7 +5,7 @@ host: ENCODE Data Coordination Center / Stanford
 url: https://www.encodeproject.org/
 access: open
 modalities: [chip-seq, atac-seq, dnase-seq, rna-seq, methylation, hi-c]
-species: [human, mouse]
+species: multi
 tissue: [multi-tissue, multi-cell-line]
 conditions: [control]
 n_subjects: unknown

@@ -36,7 +36,7 @@ This is an **index, not a mirror**. It tracks where datasets live, how to access
 | AMP-AD (ROSMAP, MSBB, Mayo) | Multi-omic + clinical | Alzheimer's disease cohorts | controlled | ~30 TB | [link](datasets/amp-ad.md) |
 | CommonMind (CMC) | Bulk RNA-seq, ATAC, methylation, WGS | Schizophrenia, bipolar postmortem brain | controlled | ~3 TB | [link](datasets/commonmind.md) |
 | ENCODE | ChIP, ATAC, DNase, RNA-seq, Hi-C | Regulatory genome reference | open | ~500 TB | [link](datasets/encode.md) |
-| GTEx | Bulk RNA-seq, WGS | Multi-tissue transcriptome reference | registered/controlled | ~5 TB | [link](datasets/gtex.md) |
+| GTEx | Bulk RNA-seq, WGS | Multi-tissue transcriptome reference | controlled | ~5 TB | [link](datasets/gtex.md) |
 | Human Cell Atlas (HCA) | scRNA-seq, spatial | Cross-tissue single-cell reference | open | ~15 TB | [link](datasets/hca.md) |
 | JUMP Cell Painting | Cell Painting | Compound + CRISPR + ORF perturbation imaging | open | ~115 TB | [link](datasets/jump-cell-painting.md) |
 | Neuropainting | Cell Painting | iPSC-neuron genetic perturbation imaging | open | ~2 TB | [link](datasets/neuropainting.md) |

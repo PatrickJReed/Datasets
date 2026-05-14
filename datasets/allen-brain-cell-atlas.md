@@ -5,7 +5,7 @@ host: Allen Institute
 url: https://portal.brain-map.org/atlases-and-data/bkp/abc-atlas
 access: open
 modalities: [scRNA-seq, snRNA-seq, merfish, atac-seq]
-species: [human, mouse]
+species: multi
 tissue: [whole-brain]
 conditions: [control]
 n_subjects: unknown
