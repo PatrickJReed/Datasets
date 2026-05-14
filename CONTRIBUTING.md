@@ -11,6 +11,31 @@ This repo is a curated index of public datasets relevant to training AI models, 
 5. **Update applicable category files.** Add a one-line bullet with a `[[wiki-link]]` and a hook describing why it belongs in that category.
 6. **Commit.** One commit per dataset is ideal.
 
+## Granularity — what counts as a dataset
+
+**The unit of indexing is a dataset a paper would cite as its training or evaluation set** — coherent acquisition protocol, stable identity (a canonical sample list), and its own primary citation. Portals and programs are not datasets; they are context.
+
+Signs an entry is **right-sized**:
+- A researcher would name it in a methods section ("we trained on X").
+- One primary citation anchors the dataset.
+- One acquisition protocol family across the cohort.
+- A stable, definable sample/donor list.
+
+Signs an entry is **too coarse** (portal-shaped):
+- Hosts hundreds of independent studies with their own citations.
+- No single primary publication for the aggregate.
+- Constituent studies use different protocols, sites, and PIs.
+- Authors cite the constituents, never the portal.
+
+Signs an entry is **too fine** (experiment-shaped):
+- A single experiment inside a coherent collection.
+- Multiple of these compose into a named cohort.
+- No standalone citation.
+
+**When you find a portal:** profile its high-value constituents as separate entries. Reference the portal in their `host` field and Access notes. Do **not** create a profile for the portal itself unless it has a citeable, harmonized corpus identity (e.g., CZ CELLxGENE Census). Examples of constituents-not-portals: ABCD lives at NDA but earns its own profile; ROSMAP lives in AMP-AD but earns its own profile.
+
+**Borderline aggregators** (HCA, AMP-AD, BICCN/BICAN) may have an entry that serves as a context page, but the constituent datasets should still be profiled separately when they have independent citations. Mark such entries clearly in the Summary as "umbrella / program" so a reader doesn't mistake them for trainable datasets in their own right.
+
 ## Inclusion criteria
 
 A dataset earns a profile if it meets all three:

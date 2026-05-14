@@ -11,7 +11,10 @@ Datasets covering brain tissue, neural cells, neuropsychiatric conditions, or ne
 - [[biccn]] · [biccn](../datasets/biccn.md) — BRAIN Initiative consortium: multi-species, multimodal brain cell census.
 - [[bican]] · [bican](../datasets/bican.md) — BICCN successor, whole-human-brain cell atlas (2022-ongoing).
 - [[nacc]] · [nacc](../datasets/nacc.md) — ADRC-network dementia coordinating center (UDS clinical + neuropath).
-- [[nda]] · [nda](../datasets/nda.md) — NIMH neurodev/mental-health archive (hosts ABCD, ABIDE, NCANDA).
+- [[abcd]] · [abcd](../datasets/abcd.md) — Longitudinal pediatric multimodal MRI (~12k subjects), the flagship developmental cohort.
+- [[abide-i]] · [abide-i](../datasets/abide-i.md) — Multi-site autism MRI benchmark (~2.1k subjects).
+- [[abide-ii]] · [abide-ii](../datasets/abide-ii.md) — ABIDE extension with additional sites and modalities.
+- [[ncanda]] · [ncanda](../datasets/ncanda.md) — Longitudinal adolescent neurodevelopment + alcohol use (~830 subjects).
 - [[nrgr]] · [nrgr](../datasets/nrgr.md) — Psychiatric genomics biorepository (Rutgers/NIMH).
 - [[adni]] · [adni](../datasets/adni.md) — Longitudinal AD neuroimaging and CSF biomarkers.
 - [[sea-ad]] · [sea-ad](../datasets/sea-ad.md) — Single-cell AD cortex atlas with neuropath staging.

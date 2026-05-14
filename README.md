@@ -31,6 +31,9 @@ This is an **index, not a mirror**. It tracks where datasets live, how to access
 
 | Dataset | Modality | Focus | Access | Scale | Detail |
 |---|---|---|---|---|---|
+| ABCD | MRI, fMRI, DTI, behavioral, genotype | Longitudinal pediatric multimodal cohort (~12k) | controlled | ~50 TB | [link](datasets/abcd.md) |
+| ABIDE I | MRI, fMRI | Multi-site autism imaging benchmark (~2.1k) | open | ~500 GB | [link](datasets/abide-i.md) |
+| ABIDE II | MRI, fMRI, DTI | ABIDE extension with additional sites and modalities | open | ~1 TB | [link](datasets/abide-ii.md) |
 | ADNI | MRI, PET, CSF, clinical | Longitudinal AD biomarkers | controlled | ~5 TB | [link](datasets/adni.md) |
 | Allen Brain Cell Atlas | scRNA-seq, MERFISH, snATAC | Whole-brain cell-type reference (human + mouse) | open | ~3 TB | [link](datasets/allen-brain-cell-atlas.md) |
 | AMP-AD (ROSMAP, MSBB, Mayo) | Multi-omic + clinical | Alzheimer's disease cohorts | controlled | ~30 TB | [link](datasets/amp-ad.md) |
@@ -43,7 +46,7 @@ This is an **index, not a mirror**. It tracks where datasets live, how to access
 | Human Cell Atlas (HCA) | scRNA-seq, spatial | Cross-tissue single-cell reference | open | ~15 TB | [link](datasets/hca.md) |
 | JUMP Cell Painting | Cell Painting | Compound + CRISPR + ORF perturbation imaging | open | ~115 TB | [link](datasets/jump-cell-painting.md) |
 | NACC | Clinical, neuropsych, neuropath, MRI | ADRC-network dementia coordinating center | controlled | ~5 TB | [link](datasets/nacc.md) |
-| NDA (NIMH Data Archive) | MRI, fMRI, behavioral, genotype | NIH neurodev/mental-health aggregator (ABCD, ABIDE) | controlled | ~500 TB | [link](datasets/nda.md) |
+| NCANDA | MRI, fMRI, DTI, behavioral, substance-use | Longitudinal adolescent neurodevelopment + alcohol | controlled | ~5 TB | [link](datasets/ncanda.md) |
 | Neuropainting | Cell Painting | iPSC-neuron genetic perturbation imaging | open | ~2 TB | [link](datasets/neuropainting.md) |
 | NRGR (NIMH-RGR) | Genotype, WGS, exome, biospecimens | Psychiatric genomics biorepository | controlled | ~50 TB | [link](datasets/nrgr.md) |
 | OpenNeuro | MRI, fMRI, EEG, MEG, iEEG | Aggregator of BIDS neuroimaging studies | open | ~200 TB | [link](datasets/openneuro.md) |
