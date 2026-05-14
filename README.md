@@ -31,9 +31,9 @@ This is an **index, not a mirror**. It tracks where datasets live, how to access
 
 | Dataset | Modality | Focus | Access | Scale | Detail |
 |---|---|---|---|---|---|
+| ADNI | MRI, PET, CSF, clinical | Longitudinal AD biomarkers | controlled | ~5 TB | [link](datasets/adni.md) |
 | Allen Brain Cell Atlas | scRNA-seq, MERFISH, snATAC | Whole-brain cell-type reference (human + mouse) | open | ~3 TB | [link](datasets/allen-brain-cell-atlas.md) |
 | AMP-AD (ROSMAP, MSBB, Mayo) | Multi-omic + clinical | Alzheimer's disease cohorts | controlled | ~30 TB | [link](datasets/amp-ad.md) |
-| ADNI | MRI, PET, CSF, clinical | Longitudinal AD biomarkers | controlled | ~5 TB | [link](datasets/adni.md) |
 | CommonMind (CMC) | Bulk RNA-seq, ATAC, methylation, WGS | Schizophrenia, bipolar postmortem brain | controlled | ~3 TB | [link](datasets/commonmind.md) |
 | ENCODE | ChIP, ATAC, DNase, RNA-seq, Hi-C | Regulatory genome reference | open | ~500 TB | [link](datasets/encode.md) |
 | GTEx | Bulk RNA-seq, WGS | Multi-tissue transcriptome reference | registered/controlled | ~5 TB | [link](datasets/gtex.md) |
