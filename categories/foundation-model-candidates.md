@@ -7,6 +7,9 @@ Datasets large or diverse enough to plausibly pretrain a foundation model on, ei
 - [[jump-cell-painting]] · [jump-cell-painting](../datasets/jump-cell-painting.md) — ~3M Cell Painting images, multi-perturbation-modality. Imaging foundation model substrate.
 - [[tahoe-100m]] · [tahoe-100m](../datasets/tahoe-100m.md) — 100M single-cell transcriptomes with perturbation context.
 - [[hca]] · [hca](../datasets/hca.md) — ~50M curated single-cell transcriptomes across tissues.
+- [[cellxgene]] · [cellxgene](../datasets/cellxgene.md) — ~100M cells via Census API; the de facto pretraining corpus for scGPT/Geneformer-style models.
+- [[bican]] · [bican](../datasets/bican.md) — Whole-human-brain single-cell at target scale beyond BICCN.
+- [[nda]] · [nda](../datasets/nda.md) — Multimodal neurodev/mental-health (ABCD alone is the largest pediatric multimodal MRI corpus).
 - [[allen-brain-cell-atlas]] · [allen-brain-cell-atlas](../datasets/allen-brain-cell-atlas.md) — Whole-brain single-cell at ~32M cells.
 - [[encode]] · [encode](../datasets/encode.md) — Reference epigenome corpus for sequence-to-function pretraining.
 - [[uk-biobank]] · [uk-biobank](../datasets/uk-biobank.md) — Multimodal human foundation model substrate (genetics + imaging + EHR).

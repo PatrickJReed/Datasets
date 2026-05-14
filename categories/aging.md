@@ -5,6 +5,7 @@ Datasets with age-range coverage relevant to aging biology — late-life cohorts
 ## Datasets
 
 - [[amp-ad]] · [amp-ad](../datasets/amp-ad.md) — Multi-omic AD across ages 60-100.
+- [[nacc]] · [nacc](../datasets/nacc.md) — Standardized clinical + neuropath across the ADRC network (60-100).
 - [[adni]] · [adni](../datasets/adni.md) — Longitudinal AD progression, 55-90.
 - [[sea-ad]] · [sea-ad](../datasets/sea-ad.md) — AD-affected vs control cortex, 65-100.
 - [[uk-biobank]] · [uk-biobank](../datasets/uk-biobank.md) — Half-million-person cohort, 40-73, with longitudinal EHR.
