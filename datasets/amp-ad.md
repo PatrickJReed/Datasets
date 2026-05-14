@@ -14,7 +14,7 @@ age_range: 60-100
 scale_gb: ~30000
 license: AD Knowledge Portal DUA (per study)
 year: 2014-ongoing
-tags: [aging, alzheimers, multi-omic, longitudinal, umbrella]
+tags: [aging, alzheimers, multi-omic, longitudinal, umbrella, program]
 ai_relevance: [disease-classification, multi-omic, aging-trajectory, multimodal]
 compute_hint: gpu-multi
 benchmark_splits: false
@@ -23,37 +23,41 @@ last_reviewed: 2026-05-14
 
 ## Summary
 
-AMP-AD is an NIH/industry public–private partnership that aggregates multi-omic data from multiple postmortem Alzheimer's disease cohorts under a single access portal, the AD Knowledge Portal. The program's three classical cohorts — ROSMAP (Rush), MSBB (Mount Sinai), and Mayo Clinic — together provide bulk RNA-seq, single-cell profiling, proteomics, methylation, ATAC-seq, WGS, GWAS, and longitudinal clinical data from roughly 5,000 donors. Newer additions to the portal continue to expand tissue coverage, modality depth, and racial/ethnic diversity. At ~30 TB of raw data it is the largest publicly accessible multi-omic resource for studying the aging human brain in Alzheimer's disease.
+**Umbrella / program — not a single dataset.** AMP-AD is an NIH / industry public-private partnership coordinating multi-omic data generation across Alzheimer's disease cohorts under a unified access portal (the AD Knowledge Portal on Synapse). For trainable datasets, see the constituent profiles: `[[rosmap]]` (Rush, the -omics flagship), `[[msbb]]` (Mount Sinai, multi-region), and `[[mayo-rnaseq]]` (Mayo, tauopathy contrast). Newer AMP-AD additions continue to expand tissue coverage, modality depth, and ancestry diversity.
+
+This page documents the program's coordination identity — the harmonized DUA architecture, cross-cohort integrative work, and shared metadata standards. It is not a dataset you would train on directly.
 
 ## Features
 
-- Bulk RNA-seq from multiple brain regions per donor across ROSMAP, MSBB, and Mayo cohorts
-- snRNA-seq and scRNA-seq atlases from cortex and other regions added in later phases
-- Proteomics (TMT mass spectrometry) from frontal cortex in ROSMAP and MSBB
-- WGBS/EPIC methylation arrays and ATAC-seq for chromatin accessibility in subsets
-- WGS and GWAS arrays enabling variant-level analyses and GWAS fine-mapping
-- ROSMAP adds serial cognitive assessments and full neuropathological staging (NIA-Reagan, CERAD, Braak); MSBB adds breadth across four cortical regions; Mayo adds non-demented aging controls and cerebellum
+- Unified portal (AD Knowledge Portal on Synapse) for cross-cohort discovery
+- Per-study DUAs that share a common framework but require separate approval
+- Shared sample metadata standards across cohorts
+- Cross-cohort integrative analyses (network reconstructions, polygenic links, pathway burden)
+- Active expansion through AMP-AD 2.0 funding cycle with additional sites and modalities
 
 ## Potential AI use cases
 
-- Multi-omic disease classification distinguishing AD from MCI and control across independent cohorts
-- Aging trajectory and biological-clock modeling from transcriptomic and methylation profiles
-- Foundation-model pretraining on large-scale postmortem brain transcriptomes
-- Cross-cohort generalization benchmarking for brain-disease models
-- Biomarker discovery via integration of molecular, imaging, and clinical endpoints
-- Graph-based or multimodal models fusing RNA-seq, proteomics, and neuropathology scores
+For training tasks, use the constituent datasets directly:
+- ROSMAP for richest -omics depth and longitudinal cognition
+- MSBB for multi-region per-donor design
+- Mayo RNAseq for tauopathy contrast and cerebellar reference
+
+Use AMP-AD as a unit when:
+- Cross-cohort generalization is itself the research question (train on ROSMAP, evaluate on MSBB + Mayo, etc.)
+- Building integrative models that explicitly leverage the harmonized metadata across cohorts
+- Sample-efficient meta-analyses pooling effect sizes
 
 ## Access notes
 
-Access requires a Synapse account plus acceptance of a study-specific Data Use Agreement for each cohort (ROSMAP, MSBB, Mayo, and others are separate DUAs). Multiple DUAs can be active simultaneously. Initial approval typically takes 2–4 weeks per DUA depending on institutional sign-off requirements. Raw data volume (~30 TB total) requires cloud or HPC storage; the portal provides versioned data releases and study-level metadata manifests.
+Synapse account required, plus a separate DUA for each cohort. Multiple DUAs can be active simultaneously. Initial approval is typically 2-4 weeks per DUA, though ROSMAP also requires a separate RADC application that can extend to months. Raw data volume (~30 TB total across cohorts) typically requires cloud or HPC storage.
 
 ## Notable papers
 
-- Bennett et al., 2018 — overview of the Religious Orders Study and Memory and Aging Project (ROSMAP; Alzheimer's and Dementia)
-- Wang et al., 2018 — multi-omic characterization of the Mount Sinai Brain Bank (MSBB) AD cohort (Nature Neuroscience)
-- Allen et al., 2016 — characterization of the Mayo Clinic brain bank cohort (Acta Neuropathologica Communications)
-- Jager et al., 2018 — AMP-AD phase 1 integrative network analyses linking genomics to neuropathology (Nature Neuroscience)
+- De Jager et al., 2018 — Multi-omic atlas of frontal cortex for aging and AD (Scientific Data; ROSMAP)
+- Wang et al., 2018 — Mount Sinai cohort multi-omic release (Scientific Data; MSBB)
+- Allen et al., 2016 — Mayo Clinic cohort RNAseq release (Scientific Data; Mayo)
+- Integrative AMP-AD network and polygenic-burden papers across 2018-2024
 
 ## Related
 
-`[[adni]]`, `[[sea-ad]]`, `[[psychencode]]`, `[[uk-biobank]]`
+Constituents: `[[rosmap]]`, `[[msbb]]`, `[[mayo-rnaseq]]`. Adjacent: `[[adni]]`, `[[sea-ad]]`, `[[nacc]]`, `[[psychencode]]`, `[[uk-biobank]]`.

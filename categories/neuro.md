@@ -7,7 +7,10 @@ Datasets covering brain tissue, neural cells, neuropsychiatric conditions, or ne
 - [[neuropainting]] · [neuropainting](../datasets/neuropainting.md) — Cell Painting on iPSC-derived neurons with genetic perturbation.
 - [[psychencode]] · [psychencode](../datasets/psychencode.md) — Multi-omic brain consortium across schizophrenia, bipolar, autism, controls.
 - [[commonmind]] · [commonmind](../datasets/commonmind.md) — Postmortem DLPFC/ACC transcriptomics with matched genotype.
-- [[amp-ad]] · [amp-ad](../datasets/amp-ad.md) — AD multi-omic umbrella (ROSMAP, MSBB, Mayo).
+- [[rosmap]] · [rosmap](../datasets/rosmap.md) — Flagship AMP-AD cohort; longitudinal cognition + deep multi-omic from Rush.
+- [[msbb]] · [msbb](../datasets/msbb.md) — AMP-AD Mount Sinai cohort; four matched cortical regions per donor.
+- [[mayo-rnaseq]] · [mayo-rnaseq](../datasets/mayo-rnaseq.md) — AMP-AD Mayo cohort; AD vs PSP tauopathy contrast.
+- [[amp-ad]] · [amp-ad](../datasets/amp-ad.md) — *(umbrella)* AD coordination program above ROSMAP/MSBB/Mayo.
 - [[biccn]] · [biccn](../datasets/biccn.md) — BRAIN Initiative consortium: multi-species, multimodal brain cell census.
 - [[bican]] · [bican](../datasets/bican.md) — BICCN successor, whole-human-brain cell atlas (2022-ongoing).
 - [[nacc]] · [nacc](../datasets/nacc.md) — ADRC-network dementia coordinating center (UDS clinical + neuropath).
