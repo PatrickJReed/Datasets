@@ -14,7 +14,7 @@ age_range: adult
 scale_gb: ~10000
 license: per-study (mostly open, some dbGaP-controlled human samples)
 year: 2017-2022
-tags: [neuro, single-cell, multimodal, atlas, umbrella, consortium]
+tags: [neuro, single-cell, multimodal, atlas, umbrella, program, consortium]
 ai_relevance: [single-cell-foundation-model, cell-type-annotation, spatial-transcriptomics, multimodal, cross-species]
 compute_hint: gpu-multi
 benchmark_splits: false
@@ -23,7 +23,9 @@ last_reviewed: 2026-05-14
 
 ## Summary
 
-NIH BRAIN Initiative consortium (2017-2022) producing comprehensive cell census atlases of mouse, marmoset, and human brain at single-cell resolution. Work spans transcriptomics, epigenomics, spatial transcriptomics, morphology, and connectivity, with cross-species comparison as an organizing principle. The successor program BICAN (BRAIN Initiative Cell Atlas Network, 2022-onward) is extending the effort to the whole human brain. NeMO Archive serves as the raw-data repository; ABC Atlas surfaces the integrated mouse and human atlases.
+**Umbrella / program — not a single dataset.** NIH BRAIN Initiative consortium (2017-2022) that funded the generation of comprehensive cell census atlases of mouse, marmoset, and human brain at single-cell resolution. For trainable data, see the citeable constituent: `[[allen-brain-cell-atlas]]` (the user-facing portal surfacing the integrated mouse and human BICCN outputs). The successor program is `[[bican]]` (2022-onward), expanding to whole human brain.
+
+This page documents BICCN's program identity — coordinated cell-type ontology, NeMO Archive as the shared data repository, and cross-species comparison as an organizing principle. Use it for context; train on ABC Atlas.
 
 ## Features
 

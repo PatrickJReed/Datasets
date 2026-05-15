@@ -14,7 +14,7 @@ age_range: adult
 scale_gb: unknown
 license: per-study (mostly open)
 year: 2022-ongoing
-tags: [neuro, single-cell, multimodal, atlas, umbrella, consortium]
+tags: [neuro, single-cell, multimodal, atlas, umbrella, program, consortium]
 ai_relevance: [single-cell-foundation-model, cell-type-annotation, spatial-transcriptomics, multimodal, cross-species]
 compute_hint: gpu-multi
 benchmark_splits: false
@@ -23,7 +23,9 @@ last_reviewed: 2026-05-14
 
 ## Summary
 
-Successor to BICCN, launched 2022. Goal is a complete cell atlas of the human brain at single-cell resolution, with complementary work in mouse and non-human primates. Funded across 16+ centers (Allen, Salk, Broad, MIT, Karolinska, etc.) and uses NeMO Archive as its shared data repository. Releases are still ramping — the data layer is partial as of mid-2026, but the modality breadth and target scale are larger than BICCN.
+**Umbrella / program — not a single dataset.** Successor to `[[biccn]]`, launched 2022. Goal is a complete cell atlas of the human brain at single-cell resolution, with complementary work in mouse and non-human primates. Funded across 16+ centers (Allen, Salk, Broad, MIT, Karolinska, etc.) using NeMO Archive as the shared data repository.
+
+Trainable BICAN constituents are still ramping as of mid-2026 — most flagship datasets are pre-release or partial. Re-evaluate this page periodically and split out specific atlases as they earn standalone citations. For now, treat BICAN as program context.
 
 ## Features
 
